@@ -1,0 +1,28 @@
+input {
+  height: 20px;
+  padding: 4px 16px;
+  border: 1px solid #beb4b4;
+  border-radius: 5px;
+
+  &:focus-visible {
+    outline: none;
+    border: 1px solid #4f4a4a;
+  }
+
+  &.error {
+    border: 1px solid #ff4242 !important;
+  }
+}
+
+label {
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.error-message {
+  color: #ee0000;
+  font-size: 12px;
+  margin-top: 4px;
+}
+

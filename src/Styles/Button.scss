@@ -1,0 +1,13 @@
+button {
+  min-width: 75px;
+  height: 32px;
+  padding: 4px 20px;
+  border-radius: 5px;
+
+  &[type=submit] {
+    background: #63bc63;
+    border: 1px solid #78b078;
+    color: white;
+    border-radius: 5px;
+  }
+}

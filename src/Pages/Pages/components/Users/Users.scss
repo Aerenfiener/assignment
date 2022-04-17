@@ -1,0 +1,28 @@
+.users {
+  width: 100%;
+
+  &__block {
+    padding: 4px 10px;
+    min-width: 210px;
+    border: 1px solid #c2bebe;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &-selected {
+      background: #444444 !important;
+      color: white;
+    }
+
+    &:hover {
+      background: #dedede;
+    }
+
+    & + & {
+      margin-top: 4px;
+    }
+  }
+
+  &__search-string {
+    margin-bottom: 10px;
+  }
+}

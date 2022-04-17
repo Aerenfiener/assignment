@@ -1,0 +1,25 @@
+.sort-buttons {
+  display: flex;
+  flex-direction: row;
+
+  &__button {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    border: 1px solid #c2bebe;
+    border-radius: 5px;
+    padding: 0 6px 3px;
+    font-size: 20px;
+    cursor: pointer;
+
+    & + & {
+      margin-left: 5px;
+    }
+
+    &-selected {
+      background: #444444 !important;
+      color: white;
+    }
+  }
+}

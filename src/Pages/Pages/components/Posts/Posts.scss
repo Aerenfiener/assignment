@@ -1,0 +1,26 @@
+.posts {
+  width: 100%;
+
+  &__block {
+    padding: 4px 10px;
+    min-width: 500px;
+    max-width: 100%;
+    border: 1px solid #c2bebe;
+    border-radius: 5px;
+
+    & + & {
+      margin-top: 4px;
+    }
+  }
+
+  &__filter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+
+    &__search-string {
+      min-width: 500px;
+    }
+  }
+}

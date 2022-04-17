@@ -1,0 +1,11 @@
+.post {
+  padding-bottom: 10px;
+
+  &__date {
+    color: #4f4a4a;
+    font-size: 14px;
+    padding: 4px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 6px;
+  }
+}

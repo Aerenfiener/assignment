@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: center;
+
+  &__page {
+    text-align: center;
+    width: 20px;
+    border: 1px solid #c2bebe;
+    border-radius: 5px;
+    padding: 6px;
+    cursor: pointer;
+
+    & + & {
+      margin-left: 5px;
+    }
+
+    &-selected {
+      background: #444444 !important;
+      color: white;
+    }
+  }
+}

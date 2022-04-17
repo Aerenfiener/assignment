@@ -1,0 +1,24 @@
+.pages {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  max-width: 1200px;
+  margin: 10px auto;
+  min-height: 90vh;
+
+  &__wrapper {
+    margin-bottom: 30px;
+  }
+
+  &__column {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    & + & {
+      margin-left: 20px;
+    }
+  }
+
+  &__pagination {
+    margin: 10px auto;
+  }
+}

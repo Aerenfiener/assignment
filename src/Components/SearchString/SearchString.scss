@@ -1,0 +1,15 @@
+.search-string {
+  position: relative;
+
+  .input {
+    padding-right: 30px;
+  }
+
+  &__icon {
+    top: 7px;
+    right: 10px;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+  }
+}
